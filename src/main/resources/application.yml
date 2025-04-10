@@ -1,0 +1,26 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://srimanvenkata17:LyLsQm7zfCSNGrh0@cluster0.gb4ro.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      data: journaldb
+      auto-index-creation: true
+  main:
+    allow-circular-references: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: srimanvenkata17@gmail.com
+    password: pcbv dkbx ihas ufbt
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+server:
+  port: 8080
+
+weather:
+  api:
+    key: 3a46452d834c58a4ac6f8aa792fc527e

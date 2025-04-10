@@ -1,0 +1,5 @@
+Spring Security
+User Entity to represent user data model
+A Repository 'UserRepository' to interact with mongoDb
+UserDetailsService Implementation to fetch user details
+A configuration SecurityConfig to integrate everything with spring security
